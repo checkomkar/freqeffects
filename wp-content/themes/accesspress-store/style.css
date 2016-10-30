@@ -841,7 +841,13 @@ object {
 /*--------------------------------------------------------------
         Sidebar CSS
 --------------------------------------------------------------*/
-
+#primary {
+    width: 100% !important;
+    float: none !important;
+}
+#secondary{
+    display: none !important;
+}
 #primary-wrap {
     width: 75%;
     float: left;
