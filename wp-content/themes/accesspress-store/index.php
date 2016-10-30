@@ -13,7 +13,7 @@
 get_header();
 ?>
 <div class="inner">
-    <main id="main" class="site-main clearfix ">
+    <main id="main" class="site-main clearfix no-sidebar">
         <div id="primary" class="content-area blog_layout1">
             <?php if ( have_posts() ) : ?>
 
